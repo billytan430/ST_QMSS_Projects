@@ -1,0 +1,24 @@
+:py:mod:`wgertrainer.display_equipment_table`
+=============================================
+
+.. py:module:: wgertrainer.display_equipment_table
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   wgertrainer.display_equipment_table.display_equipment_table
+
+
+
+.. py:function:: display_equipment_table()
+
+   Fetches equipment data from the API and displays it as a table.
+
+

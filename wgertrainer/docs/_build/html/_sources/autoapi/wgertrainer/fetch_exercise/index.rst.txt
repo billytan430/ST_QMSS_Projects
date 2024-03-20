@@ -1,0 +1,54 @@
+:py:mod:`wgertrainer.fetch_exercise`
+====================================
+
+.. py:module:: wgertrainer.fetch_exercise
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   wgertrainer.fetch_exercise.fetch_all_exercises
+
+
+
+Attributes
+~~~~~~~~~~
+
+.. autoapisummary::
+
+   wgertrainer.fetch_exercise.all_exercises
+
+
+.. py:function:: fetch_all_exercises()
+
+   Fetches a list of exercises from the wger Workout Manager API.
+
+   The function makes a series of GET requests to the wger API to retrieve
+   all exercises. Each exercise's name, description, equipment, muscles involved,
+   and ID are extracted and returned in a list of dictionaries.
+
+   :returns: A list of dictionaries, each containing details of an exercise.
+   :rtype: List[dict]
+
+   .. rubric:: Example
+
+   all_exercises = fetch_all_exercises()
+   for exercise in all_exercises:
+       print(f"Exercise Name: {exercise['name']}")
+       print(f"Description: {exercise['description']}")
+       print(f"Equipment: {exercise['equipment']}")
+       print(f"Muscles: {exercise['muscles']}")
+       print(f"ID: {exercise['id']}")
+       print("---------")
+
+
+.. py:data:: all_exercises
+
+   
+

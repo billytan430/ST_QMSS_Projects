@@ -1,0 +1,33 @@
+:py:mod:`wgertrainer.display_muscle_table`
+==========================================
+
+.. py:module:: wgertrainer.display_muscle_table
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   wgertrainer.display_muscle_table.display_muscle_table
+
+
+
+.. py:function:: display_muscle_table()
+
+   Display a table of muscle IDs, names, and English names using pandas.
+
+   This function retrieves muscle data, sorts it by ID, and prints a table of
+   muscle information.
+
+   .. rubric:: Example
+
+   display_muscle_table()
+
+   :returns: None
+
+

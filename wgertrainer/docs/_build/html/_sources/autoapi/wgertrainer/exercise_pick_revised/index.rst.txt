@@ -1,0 +1,89 @@
+:py:mod:`wgertrainer.exercise_pick_revised`
+===========================================
+
+.. py:module:: wgertrainer.exercise_pick_revised
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   wgertrainer.exercise_pick_revised.fetch_all_exercises
+   wgertrainer.exercise_pick_revised.find_exercises_by_muscle
+   wgertrainer.exercise_pick_revised.find_exercises_by_equipment
+   wgertrainer.exercise_pick_revised.find_best_exercise
+   wgertrainer.exercise_pick_revised.main_menu
+
+
+
+.. py:function:: fetch_all_exercises()
+
+   Fetches all exercise data from the 'wger.de' API.
+
+   This function makes requests to the 'wger.de' API to retrieve information about various exercises.
+   It compiles this data into a list of dictionaries, each representing an exercise with details such as
+   name, description, equipment, muscles targeted, and an ID. This list can be converted into a DataFrame
+   for further analysis and manipulation.
+
+   :returns: A list of dictionaries, where each dictionary contains data about an exercise.
+   :rtype: List[Dict]
+
+
+.. py:function:: find_exercises_by_muscle(dataframe, muscle)
+
+   Filters exercises by a specified muscle group from a given DataFrame.
+
+   This function takes a DataFrame containing exercise data and an integer representing a muscle group.
+   It filters the DataFrame to find exercises that target the specified muscle group.
+
+   :param dataframe: A DataFrame containing exercise data.
+   :type dataframe: pd.DataFrame
+   :param muscle: An integer representing the muscle group to filter by.
+   :type muscle: int
+
+   :returns: A DataFrame containing exercises that target the specified muscle group.
+   :rtype: pd.DataFrame
+
+
+.. py:function:: find_exercises_by_equipment(dataframe, equipment)
+
+   Filters exercises by specified equipment from a given DataFrame.
+
+   This function takes a DataFrame containing exercise data and an integer representing equipment.
+   It filters the DataFrame to find exercises that use the specified equipment.
+
+   :param dataframe: A DataFrame containing exercise data.
+   :type dataframe: pd.DataFrame
+   :param equipment: An integer representing the equipment to filter by.
+   :type equipment: int
+
+   :returns: A DataFrame containing exercises that use the specified equipment.
+   :rtype: pd.DataFrame
+
+
+.. py:function:: find_best_exercise(dataframe, equipment, muscle)
+
+   Filters exercises from a DataFrame that match both specific equipment and muscle group.
+
+   This function filters the provided DataFrame to find exercises that both use the specified equipment
+   and target the specified muscle group. The function takes integers representing both equipment and muscle.
+
+   :param dataframe: A DataFrame containing exercise data.
+   :type dataframe: pd.DataFrame
+   :param equipment: An integer representing the equipment to filter by.
+   :type equipment: int
+   :param muscle: An integer representing the muscle group to filter by.
+   :type muscle: int
+
+   :returns: A DataFrame containing exercises that match both the equipment and muscle criteria.
+   :rtype: pd.DataFrame
+
+
+.. py:function:: main_menu()
+
+

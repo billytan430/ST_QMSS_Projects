@@ -1,0 +1,27 @@
+:py:mod:`wgertrainer`
+=====================
+
+.. py:module:: wgertrainer
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   display_equipment_table/index.rst
+   display_muscle_table/index.rst
+   exercise_pick_revised/index.rst
+   fetch_exercise/index.rst
+   websearch/index.rst
+   wgertrainer/index.rst
+
+
+Package Contents
+----------------
+
+.. py:data:: __version__
+
+   
+

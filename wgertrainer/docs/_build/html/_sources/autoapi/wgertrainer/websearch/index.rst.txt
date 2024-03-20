@@ -1,0 +1,46 @@
+:py:mod:`wgertrainer.websearch`
+===============================
+
+.. py:module:: wgertrainer.websearch
+
+
+Module Contents
+---------------
+
+
+Functions
+~~~~~~~~~
+
+.. autoapisummary::
+
+   wgertrainer.websearch.search_exercise_on_youtube
+
+
+
+Attributes
+~~~~~~~~~~
+
+.. autoapisummary::
+
+   wgertrainer.websearch.exercise_name
+
+
+.. py:function:: search_exercise_on_youtube(exercise_name)
+
+   Opens a web browser and searches YouTube for the specified exercise.
+
+   :param exercise_name: The name of the exercise to search for.
+   :type exercise_name: str
+
+   The function constructs a search query URL for YouTube using the provided
+   exercise name and opens a new browser tab with the search results.
+
+   .. rubric:: Example
+
+   search_exercise_on_youtube("push ups")
+
+
+.. py:data:: exercise_name
+
+   
+

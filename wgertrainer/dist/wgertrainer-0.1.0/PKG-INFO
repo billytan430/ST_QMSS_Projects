@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: wgertrainer
+Version: 0.1.0
+Summary: Using Wger API to access various workouts,this is a package build to help you find the best exercise based on your input of muscle group and available equipment
+License: MIT
+Author: Shuaitao Tan
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: myst-nb (>=1.0.0,<2.0.0)
+Requires-Dist: pandas (>=2.1.4,<3.0.0)
+Requires-Dist: requests (>=2.31.0,<3.0.0)
+Requires-Dist: sphinx (>=7.2.6,<8.0.0)
+Requires-Dist: sphinx-autoapi (>=3.0.0,<4.0.0)
+Requires-Dist: sphinx-rtd-theme (>=2.0.0,<3.0.0)
+Description-Content-Type: text/markdown
+
+# wgertrainer
+
+Using Wger API to access various workouts,this is a package build to help you find the best exercise based on your input of muscle group and available equipment
+
+## Installation
+
+```bash
+$ pip install wgertrainer
+```
+
+## Usage
+
+- TODO
+
+## Contributing
+
+Interested in contributing? Check out the contributing guidelines. Please note that this project is released with a Code of Conduct. By contributing to this project, you agree to abide by its terms.
+
+## License
+
+`wgertrainer` was created by Shuaitao Tan. It is licensed under the terms of the MIT license.
+
+## Credits
+
+`wgertrainer` was created with [`cookiecutter`](https://cookiecutter.readthedocs.io/en/latest/) and the `py-pkgs-cookiecutter` [template](https://github.com/py-pkgs/py-pkgs-cookiecutter).
+
